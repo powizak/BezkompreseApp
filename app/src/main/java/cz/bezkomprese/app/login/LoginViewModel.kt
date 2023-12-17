@@ -25,4 +25,8 @@ class LoginViewModel: ViewModel() {
             }
         }
     }
+
+    fun registerClicked(){
+        //TODO - přesměrovat na obrazovku registrace
+    }
 }
