@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "123625634373",
+    "project_id": "bezkompreseapp",
+    "storage_bucket": "bezkompreseapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123625634373:android:106faab9444effc292412c",
+        "android_client_info": {
+          "package_name": "cz.bezkomprese.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbdFMkj9L4wK9-SZPZbSXOkx8EHKc_mV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
