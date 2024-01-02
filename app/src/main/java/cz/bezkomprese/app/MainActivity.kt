@@ -14,6 +14,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import cz.bezkomprese.app.login.LoginScreen
+import cz.bezkomprese.app.registration.RegistrationScreen
 import cz.bezkomprese.app.ui.theme.BezkompreseAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -38,7 +39,8 @@ class MainActivity : ComponentActivity() {
 fun MainNavGraph(){
     val navController = rememberNavController()
 
-    NavHost(navController = navController, startDestination = "login") {
+    NavHost(navController = navController, startDestination = "registration") {
         composable("login") { LoginScreen() }
+        composable("registration") { RegistrationScreen() }
     }
 }
